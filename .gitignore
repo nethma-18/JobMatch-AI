@@ -68,3 +68,5 @@ secrets/
 credentials/
 *.pem
 *.key
+# Word temporary files
+~$*
