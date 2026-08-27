@@ -149,6 +149,46 @@ Only validated data is used for model retraining.
 
 ---
 
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login-page-live.png)
+
+### HR Recruiter Dashboard
+![HR Dashboard](screenshots/hr-dashboard-live.png)
+
+### Job Seeker Dashboard
+![Seeker Dashboard](screenshots/seeker-dashboard-live.png)
+
+### Candidate Ranking Interface
+![Candidate Ranking](thesis-screenshots/ui/hr-candidate-ranking.png)
+
+### HR Dashboard (Light Mode)
+![HR Dashboard Light](thesis-screenshots/ui/hr-dashboard-light.png)
+
+### Job Seeker Dashboard (Light Mode)
+![Seeker Dashboard Light](thesis-screenshots/ui/seeker-dashboard-light.png)
+
+### Resume Upload
+![Resume Upload](thesis-screenshots/ui/seeker-resume-upload.png)
+
+### ML Analysis — Score Distribution
+![Score Distribution](thesis-screenshots/ml-analysis/score-density-distribution.png)
+
+### ML Analysis — Model Metrics Comparison
+![Metrics Comparison](thesis-screenshots/ml-analysis/metrics-comparison-bar.png)
+
+### ML Analysis — Confusion Matrix
+![Confusion Matrix](thesis-screenshots/ml-analysis/confusion-matrix.png)
+
+### System Architecture
+![Architecture Diagram](thesis-screenshots/architecture/architecture-diagram.png)
+
+### Database Entity Relationship Diagram
+![ER Diagram](thesis-screenshots/architecture/database-er-diagram.png)
+
+---
+
 ## 📌 License
 
 This project is developed as an academic final-year project for educational purposes.
