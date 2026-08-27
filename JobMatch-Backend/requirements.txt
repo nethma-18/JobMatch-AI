@@ -1,0 +1,47 @@
+# Core
+fastapi>=0.104.1
+uvicorn[standard]>=0.30.1
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+pydantic-settings>=2.3.4
+
+# Auth
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Database
+motor>=3.4.0
+pymongo>=4.7.2
+
+# File handling
+aiofiles>=23.2.1
+python-docx>=1.1.2
+pdfplumber>=0.11.1
+PyPDF2>=3.0.1
+pytesseract>=0.3.10
+pillow>=10.3.0
+pdf2image>=1.17.0
+
+# NLP / ML
+spacy>=3.7.4
+sentence-transformers>=2.7.0
+scikit-learn>=1.5.0
+numpy>=2.0.0
+pandas>=2.2.2
+joblib>=1.4.0
+threadpoolctl>=3.5.0
+
+# HuggingFace
+huggingface-hub>=0.23.2
+transformers>=4.41.2
+torch>=2.3.0
+
+# Scheduler
+apscheduler>=3.10.4
+
+# HTTP
+httpx>=0.27.0
+email-validator>=2.1.1
+
+# Add typer explicitly (version compatible with both)
+typer>=0.9.0

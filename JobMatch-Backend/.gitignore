@@ -1,0 +1,24 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Uploads (user data)
+uploads/
+
+# ML models
+data/models/
+
+# Datasets (too large for git)
+data/datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
