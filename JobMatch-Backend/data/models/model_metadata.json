@@ -1,0 +1,18 @@
+{
+  "model_name": "RandomForest",
+  "random_seed": 42,
+  "features": [
+    "tfidf_cosine_similarity",
+    "token_overlap_ratio",
+    "resume_token_count",
+    "jd_token_count",
+    "length_ratio",
+    "matched_token_count",
+    "missing_token_count"
+  ],
+  "train_samples": 82,
+  "val_samples": 18,
+  "test_samples": 18,
+  "train_plus_val_for_final": 100,
+  "val_f1": 0.9231
+}
