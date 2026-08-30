@@ -10,7 +10,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     tesseract-ocr \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install Python packages
+# Install CPU-only PyTorch FIRST (before requirements.txt)
+# This prevents sentence-transformers from pulling CUDA GPU libs (~1.5GB)
+RUN pip install --no-cache-dir \
+    torch==2.3.1+cpu \
+    --index-url https://download.pytorch.org/whl/cpu
+
+# Copy requirements and install remaining Python packages
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
